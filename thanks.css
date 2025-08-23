@@ -1,0 +1,116 @@
+/* ===== Thank You Page Styles ===== */
+
+/* Reset + base typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  color: #333;
+  background: linear-gradient(135deg, #f9f7f4, #f2ede9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Container */
+.thank-you-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 3rem;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading */
+.thank-you-container h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.thank-you-container h1::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #721c24, #155724);
+  display: block;
+  margin: 0.5rem auto 0;
+  border-radius: 3px;
+}
+
+/* Subheading */
+.thank-you-container h2 {
+  font-size: 1.6rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* Paragraph */
+.thank-you-container p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* Highlight for Author & Artist */
+.role {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+
+.role.author {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.role.artist {
+  background: #d4edda;
+  color: #155724;
+}
+
+/* Decorative Divider */
+.divider {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #721c24, #155724);
+  margin: 2rem 0;
+  border-radius: 3px;
+}
+
+/* Buttons */
+.thank-you-container a.button {
+  display: inline-block;
+  background: linear-gradient(135deg, #6a89cc, #c44569);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thank-you-container a.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
