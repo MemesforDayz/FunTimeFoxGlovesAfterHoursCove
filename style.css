@@ -1,0 +1,226 @@
+body {
+  background: black;
+  font-family: "Comic Sans MS", "Papyrus", cursive;
+  color: hotpink;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: violet;
+  text-shadow: 2px 2px darkmagenta;
+}
+
+a {
+  color: hotpink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff66ff;
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  display: inline-block;
+  background: black;
+  border: 3px groove hotpink;
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin: 20px auto;
+  box-shadow: 0 0 12px darkmagenta;
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 6px 10px;
+  padding: 6px 10px;
+  font-size: 25px;
+  color: hotpink;
+  background: rgba(139, 0, 139, 0.3);
+  border: 2px solid darkmagenta;
+  border-radius: 6px;
+}
+
+.navbar a:hover {
+  background: hotpink;
+  color: black;
+  border-color: violet;
+}
+
+/* Content box */
+.content {
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  background: rgba(50, 0, 50, 0.7);
+  border: 3px groove hotpink;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  padding: 10px;
+  background: darkviolet;
+  color: hotpink;
+  font-size: 14px;
+  border-top: 3px double hotpink;
+}
+
+/* Hidden Links (invisible until hover) */
+/*.hidden-link {
+  color: transparent; 
+  text-decoration: none;
+}
+.hidden-link:hover {
+  color: transparent;
+  text-decoration: none;
+}
+/*
+/* Hero Image Placeholder */
+.hero-image {
+  margin: 30px auto;
+  max-width: 90%;
+  width: 306px;
+  height: 303px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkmagenta;
+  font-size: 20px;
+  background-image: url(foxgloveFace.png);
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+
+  /* Neon glow animation */
+  animation: neonPulse 3s infinite alternate;
+  position: relative; /* allows absolute-positioned buttons inside */
+}
+
+/* Invisible secret buttons */
+.hero-button {
+  position: absolute;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Example button positions */
+.hero-button.article1 {
+  top: 30%;
+  left: -3%;
+  z-index: 2;
+  opacity: 0;
+}
+.hero-button.article1:hover {
+  opacity: 1;
+}
+.hero-button.article2 {
+  top: 11%;
+  right: 23%;
+  z-index: 2;
+  opacity: 0;
+}
+.hero-button.article2:hover {
+  opacity: 1;
+}
+
+/* Keyframes for pulsing border */
+@keyframes neonPulse {
+  0% {
+    border-color: hotpink;
+    box-shadow: 0 0 10px hotpink, 0 0 20px hotpink;
+  }
+  50% {
+    border-color: violet;
+    box-shadow: 0 0 12px violet, 0 0 24px violet;
+  }
+  100% {
+    border-color: darkmagenta;
+    box-shadow: 0 0 14px darkmagenta, 0 0 28px darkmagenta;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .navbar {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .navbar a {
+    display: block;
+    margin: 8px auto;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .content {
+    padding: 15px;
+  }
+  .hero-image {
+    max-width: 95%;
+    min-height: 180px;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+/* Newspaper Styling */
+.newspaper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f4f1e5;
+  color: #222;
+  font-family: "Times New Roman", Georgia, serif;
+  line-height: 1.6;
+  border: 2px solid #ccc;
+  text-align: left;
+}
+
+.newspaper h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+  font-family: "Georgia", serif;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+.newspaper h2 {
+  font-size: 30px;
+  text-align: center;
+  font-style: bold;
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: none;
+}
+
+.newspaper .columns {
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.newspaper p {
+  margin-bottom: 1em;
+}
+
+.newspaper p:first-letter {
+  font-size: 2.2em;
+  font-weight: bold;
+  float: left;
+  line-height: 1;
+  margin-right: 6px;
+  color: darkred;
+}

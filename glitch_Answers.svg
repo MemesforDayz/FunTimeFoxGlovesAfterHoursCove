@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284px" height="120px" viewBox="0 0 284 120">
+  <!-- made with glitcher-app v0.7.0 -->
+  <!-- https://github.com/metaory/glitcher-app -->
+  <!-- MIT License (c) 2025 metaory -->
+  <text filter="url(#glitch)" fill="#FFFFFF" font-family="monospace, sans-serif" font-weight="bolder" font-size="65" text-anchor="middle" dominant-baseline="middle" stroke="#FFFFFF" stroke-width="2" x="48%" y="50%">ANSWERS</text>
+  <defs>
+    <filter id="glitch" primitiveUnits="objectBoundingBox" x="-10%" y="0%" width="120%" height="100%">
+      <feColorMatrix in="SourceGraphic" result="red" type="matrix" values="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/> 
+      <feColorMatrix in="SourceGraphic" result="green" type="matrix" values="0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0"/> 
+      <feColorMatrix in="SourceGraphic" result="blue" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0"/> 
+      <feOffset in="red" result="red-shifted" dx="-0.01" dy="0">
+        <animate attributeName="dx" keyTimes="0;0.1860;0.4057;0.8413;0.8876;0.8913;0.9151;1" values="0.0105;0.0640;0.0440;0.0851;0.0426;0.0906;0.0652;0.0640" begin="0" dur="5.9s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+        <animate attributeName="dy" keyTimes="0;0.1860;0.4057;0.8413;0.8876;0.8913;0.9151;1" values="0.0105;0.0640;0.0440;0.0851;0.0426;0.0906;0.0652;0.0640" begin="0" dur="5.9s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+      </feOffset>
+      <feOffset in="blue" result="blue-shifted" dx="0.01" dy="0">
+        <animate attributeName="dx" keyTimes="0;0.1844;0.2919;0.3611;0.6461;0.8115;0.9788;1" values="0.0691;0.0408;0.0678;0.0802;0.0651;0.0716;0.0156;0.0892" begin="0" dur="6.490000000000001s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+        <animate attributeName="dy" keyTimes="0;0.1844;0.2919;0.3611;0.6461;0.8115;0.9788;1" values="0.0691;0.0408;0.0678;0.0802;0.0651;0.0716;0.0156;0.0892" begin="0" dur="6.490000000000001s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+      </feOffset>
+       <feBlend mode="screen" in="red-shifted" in2="green" result="red-green"/>
+       <feBlend mode="screen" in="red-green" in2="blue-shifted" result="blended"/>
+       <feOffset in="blended" dx="0" dy="0" y="0%" height="9%" result="slice_0">
+         <animate attributeName="dx" keyTimes="0;0.4182;0.6724;0.7409;0.7960;0.8052;0.9034;1" values="0.0339;0.0083;0.0126;0.0395;0.0697;0.0208;0.0578;0.0630" begin="0s" dur="2.0741s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.4182;0.6724;0.7409;0.7960;0.8052;0.9034;1" values="0.0339;0.0083;0.0126;0.0395;0.0697;0.0208;0.0578;0.0630" begin="0s" dur="2.0741s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="9%" height="9%" result="slice_1">
+         <animate attributeName="dx" keyTimes="0;0.2284;0.2557;0.4188;0.6691;0.6986;0.7584;1" values="0.0060;0.0701;0.0012;0.0247;0.0301;0.0026;0.0586;0.0499" begin="0s" dur="2.0778s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.2284;0.2557;0.4188;0.6691;0.6986;0.7584;1" values="0.0060;0.0701;0.0012;0.0247;0.0301;0.0026;0.0586;0.0499" begin="0s" dur="2.0778s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="18%" height="20%" result="slice_2">
+         <animate attributeName="dx" keyTimes="0;0.1875;0.2071;0.5749;0.6415;0.7607;0.9389;1" values="0.0458;0.0166;0.0561;0.0662;0.0426;0.0314;0.0583;0.0528" begin="0s" dur="2.0439s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.1875;0.2071;0.5749;0.6415;0.7607;0.9389;1" values="0.0458;0.0166;0.0561;0.0662;0.0426;0.0314;0.0583;0.0528" begin="0s" dur="2.0439s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="38%" height="16%" result="slice_3">
+         <animate attributeName="dx" keyTimes="0;0.2108;0.2512;0.2988;0.7595;0.9085;0.9357;1" values="0.0352;0.0424;0.0691;0.0459;0.0448;0.0644;0.0311;0.0216" begin="0s" dur="2.3877s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.2108;0.2512;0.2988;0.7595;0.9085;0.9357;1" values="0.0352;0.0424;0.0691;0.0459;0.0448;0.0644;0.0311;0.0216" begin="0s" dur="2.3877s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="54%" height="9%" result="slice_4">
+         <animate attributeName="dx" keyTimes="0;0.2920;0.3402;0.4129;0.4948;0.7818;0.9539;1" values="0.0652;0.0263;0.0700;0.0447;0.0308;0.0293;0.0433;0.0350" begin="0s" dur="1.7621s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.2920;0.3402;0.4129;0.4948;0.7818;0.9539;1" values="0.0652;0.0263;0.0700;0.0447;0.0308;0.0293;0.0433;0.0350" begin="0s" dur="1.7621s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="63%" height="12%" result="slice_5">
+         <animate attributeName="dx" keyTimes="0;0.4837;0.5587;0.5589;0.7681;0.8433;0.8966;1" values="0.0061;0.0071;0.0123;0.0478;0.0686;0.0077;0.0562;0.0346" begin="0s" dur="1.758s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.4837;0.5587;0.5589;0.7681;0.8433;0.8966;1" values="0.0061;0.0071;0.0123;0.0478;0.0686;0.0077;0.0562;0.0346" begin="0s" dur="1.758s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="75%" height="11%" result="slice_6">
+         <animate attributeName="dx" keyTimes="0;0.2082;0.4195;0.5528;0.6958;0.7239;0.8621;1" values="0.0581;0.0252;0.0123;0.0421;0.0263;0.0736;0.0151;0.0347" begin="0s" dur="1.9236s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.2082;0.4195;0.5528;0.6958;0.7239;0.8621;1" values="0.0581;0.0252;0.0123;0.0421;0.0263;0.0736;0.0151;0.0347" begin="0s" dur="1.9236s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+       <feOffset in="blended" dx="0" dy="0" y="86%" height="14%" result="slice_7">
+         <animate attributeName="dx" keyTimes="0;0.1443;0.3938;0.4828;0.6040;0.6403;0.6704;1" values="0.0456;0.0591;0.0591;0.0042;0.0127;0.0682;0.0480;0.0487" begin="0s" dur="1.8656s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+         <animate attributeName="dy" keyTimes="0;0.1443;0.3938;0.4828;0.6040;0.6403;0.6704;1" values="0.0456;0.0591;0.0591;0.0042;0.0127;0.0682;0.0480;0.0487" begin="0s" dur="1.8656s" calcMode="discrete" repeatCount="indefinite" fill="freeze"/>
+       </feOffset>
+      <feMerge>
+        <feMergeNode in="slice_0"/><feMergeNode in="slice_1"/><feMergeNode in="slice_2"/><feMergeNode in="slice_3"/><feMergeNode in="slice_4"/><feMergeNode in="slice_5"/><feMergeNode in="slice_6"/><feMergeNode in="slice_7"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

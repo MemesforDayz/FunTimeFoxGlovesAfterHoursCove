@@ -83,6 +83,16 @@ body {
   color: #155724;
 }
 
+.role.webdev {
+  background: #636BFF;
+  color: #000274;
+}
+
+.role.fpartist {
+  background: #f8d7da;
+  color: #721c24;
+}
+
 /* Decorative Divider */
 .divider {
   width: 100%;
